@@ -2,7 +2,7 @@ package problem15;
 
 import java.util.*;
 
-public class Solution {
+class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = {-2, 0, 1, 1, 2};

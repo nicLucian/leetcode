@@ -1,7 +1,6 @@
 package problem14;
 
-public class Solution {
-
+class Solution {
 
     public String longestCommonPrefix(String[] strs) {
         if ((strs == null) || (strs.length == 0)) {
