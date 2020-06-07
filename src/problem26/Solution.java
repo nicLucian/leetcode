@@ -17,7 +17,7 @@ import java.util.Arrays;
  * <p>
  * It doesn't matter what you leave beyond the returned length.
  */
-public class Solution {
+class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 //        int[] nums = {3, 2, 2, 3};
