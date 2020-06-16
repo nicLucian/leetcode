@@ -2,7 +2,7 @@ package problem300;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
