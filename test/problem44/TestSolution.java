@@ -60,7 +60,7 @@ public class TestSolution {
     public void should_be_true20() {
         String text = "ab";
         String pattern = "**?a*";
-        assertThat(false, equalTo(mSolution.isMatch1(text, pattern)));
+        assertThat(false, equalTo(mSolution.isMatch(text, pattern)));
     }
 
     @Test
