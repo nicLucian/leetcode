@@ -2,7 +2,7 @@ package problem10;
 
 import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public boolean isMatch(String s, String p) {
         int textLength = s.length();
         int patternLength = p.length();
