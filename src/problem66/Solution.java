@@ -1,6 +1,5 @@
 package problem66;
 
-import sun.applet.Main;
 
 import java.util.Arrays;
 

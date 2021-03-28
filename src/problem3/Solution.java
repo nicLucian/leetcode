@@ -3,7 +3,7 @@ package problem3;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+class Solution {
     public int lengthOfLongestSubstring(String s) {
         int maxLength = 0;
 
