@@ -1,10 +1,9 @@
 package problem206;
 
 import org.junit.Test;
-import util.ListNode;
-import util.ListUtil;
+import src_util.ListNode;
+import src_util.ListUtil;
 
-import static org.junit.Assert.*;
 public class SolutionTest {
     Solution mSolution = new Solution();
 

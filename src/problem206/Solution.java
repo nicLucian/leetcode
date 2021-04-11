@@ -1,7 +1,7 @@
 package problem206;
 
 
-import util.ListNode;
+import src_util.ListNode;
 
 class Solution {
 

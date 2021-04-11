@@ -1,6 +1,6 @@
 package problem160;
 
-import util.ListNode;
+import src_util.ListNode;
 
 class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

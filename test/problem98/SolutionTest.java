@@ -1,8 +1,8 @@
 package problem98;
 
 import org.junit.Test;
-import util.TreeNode;
-import util.TreeUtil;
+import src_util.TreeNode;
+import src_util.TreeUtil;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package util;
+package src_util;
 
 public class ListUtil {
     private ListUtil() {
@@ -23,8 +23,8 @@ public class ListUtil {
         }
     }
 
-    public static void main(String[] args) {
-        int[] list = {1, 2, 3, 4, 5};
-        walk(buildList(list));
-    }
+//    public static void main(String[] args) {
+//        int[] list = {1, 2, 3, 4, 5};
+//        walk(buildList(list));
+//    }
 }
