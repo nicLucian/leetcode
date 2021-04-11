@@ -1,6 +1,6 @@
 package problem98;
 
-import src_util.TreeNode;
+import util.TreeNode;
 
 public class Solution {
 

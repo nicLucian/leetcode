@@ -1,6 +1,6 @@
 package problem107;
 
-import src_util.TreeNode;
+import util.TreeNode;
 
 import java.util.*;
 

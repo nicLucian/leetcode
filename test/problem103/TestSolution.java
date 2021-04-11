@@ -1,8 +1,8 @@
 package problem103;
 
 import org.junit.Test;
-import src_util.TreeNode;
-import src_util.TreeUtil;
+import util.TreeNode;
+import util.TreeUtil;
 
 import java.util.List;
 

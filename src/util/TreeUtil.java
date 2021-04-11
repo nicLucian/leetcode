@@ -1,4 +1,4 @@
-package src_util;
+package util;
 
 public class TreeUtil {
     private TreeUtil() {
@@ -28,22 +28,6 @@ public class TreeUtil {
             }
         }
         return nodes[0];
-    }
-
-    public static void main(String[] args) {
-        Integer[] input = {1, 2, 3, null, null, 4, 5};
-        TreeNode root = buildTree(input);
-        System.out.print("Preorder: ");
-        preorder(root);
-        System.out.println();
-
-        System.out.print("Inorder: ");
-        inorder(root);
-        System.out.println();
-
-        System.out.print("Postorder: ");
-        postorder(root);
-        System.out.println();
     }
 
     private static void inorder(TreeNode root) {

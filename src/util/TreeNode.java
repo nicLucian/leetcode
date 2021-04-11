@@ -1,4 +1,4 @@
-package src_util;
+package util;
 
 public class TreeNode {
     public int val;

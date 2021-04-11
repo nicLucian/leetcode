@@ -1,8 +1,8 @@
 package problem206;
 
 import org.junit.Test;
-import src_util.ListNode;
-import src_util.ListUtil;
+import util.ListNode;
+import util.ListUtil;
 
 public class SolutionTest {
     Solution mSolution = new Solution();
