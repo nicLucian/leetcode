@@ -1,23 +1,5 @@
 package problem56;
 
-<<<<<<< HEAD
-import java.util.Arrays;
-import java.util.Comparator;
-
-public class Solution {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[][] intervals = {{1, 3}, {2, 6}, {15, 18}, {8, 10}, };
-        solution.merge(intervals);
-    }
-
-    public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
-        for (int i = 0; i < intervals.length; i++) {
-            System.out.println(Arrays.toString(intervals[i]));
-        }
-        return null;
-=======
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -50,6 +32,5 @@ public class Solution {
         for (int[] interval : solution.merge(intervals)) {
             System.out.println(Arrays.toString(interval));
         }
->>>>>>> 4ae1388d0fa0cecef29b163fc695581fe35deb4e
     }
 }
