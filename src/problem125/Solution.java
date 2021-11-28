@@ -6,13 +6,13 @@ public class Solution {
         int start = 0;
         int end = chars.length - 1;
         while (start < end) {
-            while (!valid(chars[start])) {
+            while (start < s.length() && !valid(chars[start])) {
                 start++;
             }
-            while (!valid(chars[end])) {
+            while (end >= 0 && !valid(chars[end])) {
                 end--;
             }
-            if (equals(chars[start], chars[end])) {
+            if (start < s.length() && end >= 0 && equals(chars[start], chars[end])) {
                 start++;
                 end--;
             } else {
@@ -41,7 +41,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        String str = "A man, a plan, a canal: Panama";
+        String str = ",.";
         solution.isPalindrome(str);
     }
 }
